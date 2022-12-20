@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #0d1b2a;
+}
+#root{
+    width: 100%;
+}
+table{
+    margin: 25px 0px 0px 30px;
+    background: #e0e1dd;
+    height: 600px;
+    width: 80%;
+    border-radius: 5px;
+}
+thead{
+    background: #1b263b;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+th{
+    background: #013a63;
+    height:40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+tr{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+}
+main{
+    display: flex;
+}
+#crud-container{
+    margin: 10px 10px 0px 0px;
+    background: rgb(230, 230, 230);
+    width: 30%;
+    display: flex;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+#btn-create{
+    height: 80px;
+    width: 80px;
+    margin: 5px 0px 0px 5px;
+    color: #ffffff;
+    background: #013a63;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+#btn-create:hover{
+    background: #064a7b;
+}
+#btn-update{
+    height: 80px;
+    width: 80px;
+    margin: 5px 0px 0px 5px;
+    color: #ffffff;
+    background: #013a63;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+#btn-update:hover{
+    background: #064a7b;
+}
+#btn-delete{
+    height: 80px;
+    width: 80px;
+    margin: 5px 0px 0px 5px;
+    color: #ffffff;
+    background: #013a63;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+#btn-delete:hover{
+    background: #064a7b;
+}
+
+#btn-filter{
+    height: 80px;
+    width: 80px;
+    margin: 5px 0px 0px 5px;
+    color: #ffffff;
+    background: #013a63;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+#btn-filter:hover{
+    background: #064a7b;
+}
+
+#btn-read{
+    height: 80px;
+    width: 80px;
+    margin: 5px 0px 0px 5px;
+    color: #ffffff;
+    background: #013a63;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+#btn-read:hover{
+    background: #064a7b;
+}
